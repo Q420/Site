@@ -1,44 +1,52 @@
 body {
-  background-color: #1d1f21;
-  color: #c5c8c6;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 16px;
-  line-height: 1.5;
-  margin: 0;
-  padding: 0;
+  background-color: black;
 }
 
-header {
-  background-color: #282a2e;
-  border-bottom: 1px solid #373b41;
-  color: #c5c8c6;
-  font-size: 20px;
-  font-weight: bold;
-  padding: 20px;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  justify-content: space-between;
-}
-
-.content {
-  background-color: #282a2e;
-  color: #c5c8c6;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 16px;
+.terminal {
+  background-color: black;
+  color: limegreen;
+  font-family: monospace;
+  font-size: 14px;
   line-height: 1.5;
   padding: 20px;
-  white-space: pre-wrap;
+  margin: 0 auto;
+  max-width: 600px;
+  height: 400px;
+  overflow: auto;
 }
 
-.footer {
-  background-color: #282a2e;
-  border-top: 1px solid #373b41;
-  color: #c5c8c6;
-  font-size: 12px;
-  padding: 10px;
-  text-align: center;
+.terminal::-webkit-scrollbar {
+  width: 5px;
+}
+
+.terminal::-webkit-scrollbar-thumb {
+  background-color: limegreen;
+}
+
+.terminal .command {
+  color: white;
+}
+
+.terminal .output {
+  color: limegreen;
+}
+
+.terminal .prompt {
+  color: limegreen;
+}
+
+.terminal .blink {
+  animation: blink 1s steps(1) infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
