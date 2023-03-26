@@ -1,33 +1,31 @@
 body {
-  background-color: #555555;
-  color: #ffffff;
-  font-family: Arial, sans-serif;
+  background-color: #0f0f0f;
+  color: #d6d6d6;
+  font-family: 'Helvetica Neue', sans-serif;
 }
 
 header {
-  background-image: url('header-image.jpg');
-  background-size: cover;
-  height: 600px;
-}
-
-main {
-  padding: 50px;
+  background-color: #212121;
+  height: 200px;
+  padding: 20px;
+  text-align: center;
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 3rem;
+  margin-top: 30px;
 }
 
 p {
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 1.5;
 }
 
 a {
-  color: #ff00ff;
+  color: #d6d6d6;
   text-decoration: none;
 }
 
 a:hover {
-  color: #00ffff;
+  color: #7a7a7a;
 }
