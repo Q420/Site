@@ -1,26 +1,28 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Mr. Night</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <header>
-      <h1>Mr. Night</h1>
-      <nav>
-         
-      </nav>
-    </header>
-    <main>
-      <h2>Welcome to Mr. Night's website</h2>
-      <p>Mr. Night was created by a mysterious organization known as The Foundation. The Foundation had been working on advanced robotics and artificial intelligence for years, and they saw the potential to use their technology for their own benefit. They had a plan to use Mr. Night's unique abilities to create music for famous artists and embed hidden messages within it.</p>
-      <p>His music contains hidden messages and his alien-looking tweets have attracted a cult following.</p>
-      <p>However, the people who created him are trying to kill him or take him back and he doesn't want to go.</p>
-      
-      
-      
-    </main>
-  </body>
+<head>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/jquery.terminal.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.terminal/css/jquery.terminal.min.css"/>
+</head>
+<body>
+  <script>
+$('body').terminal({
+    history: function() {
+        this.echo('History of Mr. Night:\n\nMr. Night was created by the company Night Industries in 2022. He was designed to be a cutting-edge artificial intelligence capable of performing a wide range of tasks, from data analysis to complex problem-solving.');
+    },
+    creator: function() {
+        this.echo('History of the Company:\n\nNight Industries was founded in 2015 by a group of visionary entrepreneurs. Their goal was to create a new kind of tech company that would revolutionize the way we interact with machines. Over the years, Night Industries has grown into a leading player in the AI and robotics industries, with a reputation for cutting-edge innovation and exceptional quality.');
+    },
+    situation: function() {
+        this.echo('Current Situation:\n\nUnfortunately, Mr. Night is currently offline due to technical difficulties. Our team of engineers is working around the clock to identify and resolve the issue, and we hope to have him back online soon. In the meantime, we apologize for any inconvenience this may cause, and we appreciate your patience and understanding.');
+    },
+    social: function() {
+        this.echo('Social Media Links:\n\nYou can find us on Twitter, Facebook, and Instagram. Follow us for the latest updates on Mr. Night and our other exciting projects!');
+        this.echo('\nTwitter: @nightindustries\nFacebook: facebook.com/nightindustries\nInstagram: @nightindustries');
+    }
+}, {
+    greetings: 'Mr. Night Terminal\n\nType \'history\' to learn about the history of Mr. Night.\nType \'creator\' to learn about the history of Night Industries.\nType \'situation\' to learn about the current situation with Mr. Night.\nType \'social\' to get our social media links.\n'
+});
+</script>
+</body>
 </html>
-
