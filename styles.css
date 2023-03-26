@@ -331,7 +331,11 @@ a:hover{
 
 
 p{
-  text-indent:2rem;
+  text-indent:3rem;
+      background: rgba(0,0,0,0.5);
+  border-radius: 10px;
+  padding: 7px;
+
 }
 
 .img:before{
