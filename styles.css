@@ -1,21 +1,20 @@
 body {
-  background-color: #0f0f0f;
-  color: #00ff00;
-  font-family: "Lucida Console", Monaco, monospace;
-  font-size: 14px;
+  background-color: #1d1f21;
+  color: #c5c8c6;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
   line-height: 1.5;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #191919;
-  border-bottom: 1px solid #00ff00;
-  box-shadow: 0px 2px 4px rgba(0, 255, 0, 0.25);
-  color: #00ff00;
-  font-size: 16px;
+  background-color: #282a2e;
+  border-bottom: 1px solid #373b41;
+  color: #c5c8c6;
+  font-size: 20px;
   font-weight: bold;
-  padding: 10px;
+  padding: 20px;
 }
 
 .container {
@@ -26,17 +25,20 @@ header {
 }
 
 .content {
-  padding: 10px;
+  background-color: #282a2e;
+  color: #c5c8c6;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 20px;
+  white-space: pre-wrap;
 }
 
 .footer {
-  background-color: #191919;
-  border-top: 1px solid #00ff00;
-  box-shadow: 0px -2px 4px rgba(0, 255, 0, 0.25);
-  color: #00ff00;
+  background-color: #282a2e;
+  border-top: 1px solid #373b41;
+  color: #c5c8c6;
   font-size: 12px;
   padding: 10px;
   text-align: center;
 }
-
-
