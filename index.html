@@ -1,28 +1,35 @@
-
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Sci-Fi Navigation</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <nav class="scifi-nav">
-      <ul class="scifi-nav__system">
-        <script>
-          var labels = ['Mission', 'Countdown', 'Hipersleep', 'Cruise', 'Landing', 'Research'];
-          var n = 0;
-          var rndNumber;
-          while (n < 6) {
-            document.write('<li class="scifi-nav__orbit"><a class="scifi-nav__satellite" href="javascript:void(0)"><span class="scifi-nav__label">' + labels[n] + '</span>');
-            rndNumber = Math.floor(Math.random() * 9);
-            document.write('<span class="scifi-nav__description">Difficulty level ' + rndNumber + '</span></a></li>');
-            n++;
-          }
-        </script>
-      </ul>
-      <div class="hologram"></div>
-    </nav>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>My Music Production Updates</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+  <h1>My Music Production Updates</h1>
+</header>
+
+  <main>
+    <section class="update">
+      <div class="date">
+        <h2>April 23, 2023</h2>
+      </div>
+      <div class="message">
+        <p>I just finished producing a new track! It's a chillout tune with lots of ambient sounds and a laid-back beat. Can't wait to share it with everyone!</p>
+      </div>
+    </section>
+    <section class="update">
+      <div class="date">
+        <h2>April 21, 2023</h2>
+      </div>
+      <div class="message">
+        <p>Spent the whole day tweaking the mix on a new track. I think I finally got it sounding just right. It's amazing how much of a difference a few small changes can make!</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 My Music Production Updates</p>
+  </footer>
+</body>
 </html>
